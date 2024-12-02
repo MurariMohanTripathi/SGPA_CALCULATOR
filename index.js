@@ -1,7 +1,9 @@
+const button = document.getElementById("myButton");
+
+// Add a keydown event listener to the document
 document.addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
-        console.log("Enter key was pressed!");
-       
+        button.click(); // Simulate a button click
     }
 });
 
