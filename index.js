@@ -1,5 +1,12 @@
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        console.log("Enter key was pressed!");
+        final();
+    }
+});
 
 function final() {
+
     console.log("SGPA Calculation Started");
     var totalCredit = 0;
     let sumOfCreditAndGrade = 0;
