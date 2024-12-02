@@ -1,11 +1,11 @@
-const button = document.getElementById("myButton");
+// const button = document.getElementById("myButton");
 
-// Add a keydown event listener to the document
-document.addEventListener("keydown", function(event) {
-    if (event.key === "Enter") {
-        button.click(); // Simulate a button click
-    }
-});
+// // Add a keydown event listener to the document
+// document.addEventListener("keydown", function(event) {
+//     if (event.key === "Enter") {
+//         button.click(); // Simulate a button click
+//     }
+// });
 
 function final() {
 
