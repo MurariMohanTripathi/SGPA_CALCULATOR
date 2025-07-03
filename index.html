@@ -91,7 +91,7 @@ function final() {
   let allSubjects = [];
   for (let i = 1; i <= 10; i++) {
     let credit = document.getElementById(`credit${i}`).value;
-    let gradePoint = document.getElementById(`grade$ {i}`).value.trim().toUpperCase();
+    let gradePoint = document.getElementById(`grade${i}`).value.trim().toUpperCase();
 
     if (credit === "" || gradePoint === "") {
       alert(`Please fill in all credits and grades (Subject ${i})`);
